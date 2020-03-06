@@ -1,0 +1,7 @@
+def reclasificar(campo):
+	d = {'Valor 1 del Campo':'Valor 1 a reemplazar', 'Valor 2 del Campo':'Valor 2 a reemplazar'}
+	return d.get(campo)
+	
+------------------------------------#-----------------------------------
+
+reclasificar(!campo!)
